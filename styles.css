@@ -1,8 +1,13 @@
 body {
-    background-color: darkslategrey;
+    background: linear-gradient(135deg, #1a1a1a 0%, #2e2e2e 100%);
+   min-height: 100vh;
     color: white;
     text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
+
+
 
 nav {
     background-color: #333;
@@ -36,4 +41,8 @@ nav a {
 
 nav li:hover {
     transform: scale(1.10);
+}
+
+body ul {
+    list-style-type: none;
 }
