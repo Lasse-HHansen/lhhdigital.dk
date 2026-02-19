@@ -1,0 +1,39 @@
+body {
+    background-color: darkslategrey;
+    color: white;
+    text-align: center;
+}
+
+nav {
+    background-color: #333;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 25px 75px;
+    border-radius: 50px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0,8);
+    align-items: center;
+}
+
+nav ul {
+    background: #333;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    gap: 15%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    display: block;
+    line-height: 1;
+}
+
+nav li:hover {
+    transform: scale(1.10);
+}
