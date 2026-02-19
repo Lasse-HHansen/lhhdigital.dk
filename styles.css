@@ -1,6 +1,6 @@
 body {
     background: linear-gradient(135deg, #1a1a1a 0%, #2e2e2e 100%);
-   min-height: 100vh;
+    min-height: 100vh;
     color: white;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -45,4 +45,37 @@ nav li:hover {
 
 body ul {
     list-style-type: none;
+}
+
+.dashboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5%;
+    padding: 50px 20px;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    padding: 25px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease;
+    align-items: center;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.card img {
+    width: 100px;
+    height: 60px;
+    border-radius: 10px;
+    margin-bottom: 15px;
 }
