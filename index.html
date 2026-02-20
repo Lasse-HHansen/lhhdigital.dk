@@ -1,53 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LHH Digital</title>
     <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
     <nav>
         <ul>
-            <li><a href="Forside">Forside</a></li>
-            <li><a href="CV">CV</a></li>
-            <li><a href="Projekter">Projekter</a></li>
+            <li><a href="#forside">Forside</a></li>
+            <li><a href="#cv">CV</a></li>
+            <li><a href="#projekter">Projekter</a></li>
         </ul>
     </nav>
-</head>
 
-<body>
-<h2>Hej og velkommen til 👋</h2>
-<p>Mit navn er Lasse, og jeg studerer til daglig IT arkitektur på IBA i Kolding.</p>
-<p>Jeg har erfaring inden for Python, webudvikling og C#.</p>
-<p>Ved siden af studie arbejder jeg hos Tesla i salgs og leveringsteamet. </p>
+    <header>
+        <h2 id="greeting">Hej og velkommen til 👋</h2>
+        <p>Mit navn er Lasse, og jeg studerer til daglig IT-arkitektur på IBA i Kolding.</p>
+        <p>Jeg har erfaring inden for Python, webudvikling og C#.</p>
+        <p>Ved siden af studiet arbejder jeg hos Tesla i salgs- og leveringsteamet.</p>
+    </header>
 
-<section class="dashboard">
-    <div class="profile picture">
-        <img src="billede" alt="profilbillede">
-    </div>
-    <a href="ttps://www.linkedin.com/in/lasse-h-hansen-/" target="_blank" class="card linkedin">
-        <img src="LinkedIn.svg" alt="LinkedIn logo">
-    </a>
-    
-    <a href="https://github.com/Lasse-HHansen" target="_blank" class="card github">
-        <img src="GitHub-logo.png" alt="Github logo">
-    </a>
-    
-</section>
+    <section class="dashboard">
+        <a href="https://www.linkedin.com/in/lasse-h-hansen-/" target="_blank" class="card">
+            <img src="LinkedIn.svg" alt="LinkedIn logo">
+            <span>LinkedIn</span>
+        </a>
+        
+        <a href="https://github.com/Lasse-HHansen" target="_blank" class="card">
+            <img src="GitHub-logo.png" alt="Github logo">
+            <span>GitHub</span>
+        </a>
+    </section>
 
+    <section class="profile-container">
+        <div class="profile-card">
+            <img src="profile-picture.png" alt="Lasse" class="profile-img">
+            <div class="profile-details">
+                <h2>Lasse Heldt Hansen</h2>
+                <p><a href="mailto:lassehhansen02@gmail.com">📩 lassehhansen02@gmail.com</a></p>
+                <p><a href="tel:+4520432377">📞 20 43 23 77</a></p>
+            </div>
+        </div>
+    </section>
 
-
-
-
-
+    <footer>
+        <p>@lhhdigital</p>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/lasse-h-hansen-/">LinkedIn</a></li>
+            <li><a href="https://github.com/Lasse-HHansen">GitHub</a></li>
+        </ul>
+    </footer>
+    <script src="script.js"></script>
 </body>
-
-<footer>
-    <ul>
-        <li>@lhhdigital</li>
-        <li><a href="Linkedin">LinkedIn</a></li>
-        <li><a href="github">GitHub</a></li>
-    </ul>
-
-</footer>
-
 </html>
