@@ -1,6 +1,11 @@
 /* Generel styling */
 body {
-    background: linear-gradient(135deg, #1a1a1a 0%, #2e2e2e 100%);
+    /* Den nye mesh-gradient baggrund */
+    background: 
+        radial-gradient(circle at 0% 0%, rgba(0, 75, 122, 0.8), transparent 55%),
+        radial-gradient(circle at 100% 100%, rgba(91, 33, 73, 0.8), transparent 55%),
+        #0a0e14; 
+    background-attachment: fixed; 
     min-height: 100vh;
     color: white;
     text-align: center;
@@ -11,10 +16,11 @@ body {
 
 /* Navigrationsmenu */
 nav {
-    background-color: #333;
+    background-color: rgba(255, 255, 255, 0.05);
     width: fit-content;
     margin: 20px auto 60px auto;
     padding: 15px 50px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 50px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.5);
 }
