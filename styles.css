@@ -1,6 +1,4 @@
-/* Generel styling */
 body {
-    /* Den nye mesh-gradient baggrund */
     background: 
         radial-gradient(circle at 0% 0%, rgba(0, 75, 122, 0.8), transparent 55%),
         radial-gradient(circle at 100% 100%, rgba(91, 33, 73, 0.8), transparent 55%),
@@ -14,7 +12,6 @@ body {
     padding: 0;
 }
 
-/* Navigrationsmenu */
 nav {
     background-color: rgba(255, 255, 255, 0.05);
     width: fit-content;
@@ -49,7 +46,6 @@ nav li:hover {
     transform: scale(1.1);
 }
 
-/* Dashboard med LinkedIn & GitHub */
 .dashboard {
     display: flex;
     flex-wrap: wrap;
@@ -85,7 +81,6 @@ nav li:hover {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-/* Profil Sektion */
 .profile-container {
     display: flex;
     justify-content: center;
@@ -119,7 +114,7 @@ nav li:hover {
     text-decoration: none;
 }
 
-/* Footer */
+
 footer {
     padding: 40px;
     font-size: 0.9rem;
@@ -250,7 +245,7 @@ footer a {
 
 .project-info h3 {
     margin: 0 0 10px 0;
-    color: #white;
+    color: white;
 }
 
 .project-link {
