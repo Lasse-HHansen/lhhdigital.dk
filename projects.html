@@ -29,7 +29,7 @@
             <div class="project-info">
                 <h3>To-do app</h3>
                 <p>En To-do app udviklet i C#</p>
-                <a href="#" class="project-link">Se mere</a>
+                <a href="javascript:void(0)" class="project-link" onclick="openModal('To-do app', 'Dette system er bygget i C# for at holde styr på daglige opgaver. Jeg lærte meget om datastrukturer og hvordan man gemmer lister lokalt.')">Se mere</a>
             </div>
         </div>
 
@@ -44,6 +44,14 @@
         
         </section>
 
+        <div id="projectModal" class="modal">
+            <div class="modal-content">
+                <span class="close-btn" onclick="closeModal()">&times;</span>
+                <h2 id="modalTitle">Projekt Titel</h2>
+                <p id="modalDescription">Her kommer der tekst</p>
+                <div id="modalTech">Teknologier brugt: C#</div>
+            </div>
+        </div>
 
         <footer>
             <p>@lhhdigital</p>
@@ -52,5 +60,6 @@
                 <li><a href="https://github.com/Lasse-HHansen">GitHub</a></li>
             </ul>
         </footer>
+    <script src="script.js"></script>
 </body>
 </html>
